@@ -16,7 +16,7 @@ int main() {
     // initialize random seed
     srand(time(0));
     // set the parameters to 0 and 9
-    someRandomNumber = rand() % 9 + 0;
+    someRandomNumber = rand_r() % 9 + 0;
     // declare variable for users number
     int guessedNumber;
     // get the users chosen number between 0 and 9
